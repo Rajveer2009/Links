@@ -1,167 +1,64 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <title>Rajveer's Links</title>
-    <style>
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-family:
-          system-ui,
-          -apple-system,
-          sans-serif;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        padding: 20px;
-      }
-
-      .container {
-        max-width: 600px;
-        width: 100%;
-        text-align: center;
-      }
-
-      .profile {
-        margin: 20px 0;
-      }
-
-      .profile img {
-        width: 128px;
-        height: 128px;
-        border-radius: 50%;
-        border: 4px solid white;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      }
-
-      .links {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        margin-top: 20px;
-      }
-
-      .link {
-        background: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(5px);
-        padding: 16px 20px;
-        border-radius: 8px;
-        text-decoration: none;
-        color: white;
-        font-weight: 500;
-        transition: all 0.2s ease;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-      }
-
-      .link:hover {
-        background: rgba(255, 255, 255, 0.2);
-        transform: translateY(-2px);
-      }
-
-      .icon {
-        width: 24px;
-        height: 24px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="profile">
-        <img src="images/avatar.png" alt="Profile Picture" />
-        <h1>Rajveer Singh Saggu</h1>
-        <p>Developer & Tech Enthusiast</p>
-      </div>
-
-      <div class="links">
-        <a href="https://rajveer2009.srht.site" class="link">
-          <svg
-            class="icon"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-            ></path>
-          </svg>
-          Homepage
-        </a>
-
-        <a href="https://sr.ht/~rajveer2009" class="link">
-          <svg
-            class="icon"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
-          </svg>
-          SourceHut
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/rajveer-singh-saggu-7579071b7/"
-          class="link"
-        >
-          <svg
-            class="icon"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
-            ></path>
-            <circle cx="4" cy="4" r="2"></circle>
-          </svg>
-          LinkedIn
-        </a>
-
-        <a href="https://youtube.com/@rajveer_2009" class="link">
-          <svg
-            class="icon"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z"
-            ></path>
-            <polygon
-              points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
-            ></polygon>
-          </svg>
-          YouTube
-        </a>
-
-        <a href="https://codeforces.com/profile/rajveer2009" class="link">
-          <svg
-            class="icon"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-            <path
-              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-            ></path>
-          </svg>
-          Codeforces
-        </a>
-      </div>
-    </div>
-  </body>
+<html lang=en>
+<head>
+<meta charset=UTF-8 />
+<meta name=viewport content="width=device-width, initial-scale=1.0" />
+<link rel=icon type=image/x-icon href=images/favicon.ico>
+<title>Rajveer's Links</title>
+<style>body{margin:0;min-height:100vh;display:flex;flex-direction:column;align-items:center;font-family:system-ui,-apple-system,sans-serif;background:linear-gradient(135deg,#667eea 
+0,#764ba2 
+100%);color:white;padding:20px}.container{max-width:600px;width:100%;text-align:center}.profile{margin:20px 
+0}.profile img{width:128px;height:128px;border-radius:50%;border:4px solid white;box-shadow:0 4px 6px 
+rgba(0,0,0,0.1)}.links{display:flex;flex-direction:column;gap:12px;margin-top:20px}.link{background:rgba(255,255,255,0.1);backdrop-filter:blur(5px);padding:16px 
+20px;border-radius:8px;text-decoration:none;color:white;font-weight:500;transition:all .2s 
+ease;display:flex;align-items:center;justify-content:center;gap:10px}.link:hover{background:rgba(255,255,255,0.2);transform:translateY(-2px)}.icon{width:24px;height:24px}</style>
+</head>
+<body>
+<div class=container>
+<div class=profile>
+<img src=images/avatar.png alt="Profile Picture" />
+<h1>Rajveer Singh Saggu</h1>
+<p>Developer & Tech Enthusiast</p>
+</div>
+<div class=links>
+<a href=https://rajveer2009.srht.site class=link>
+<svg class=icon viewBox="0 0 24 24" fill=none stroke=currentColor stroke-width=2>
+<path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 
+011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+</svg>
+Homepage
+</a>
+<a href=https://sr.ht/~rajveer2009 class=link>
+<svg class=icon viewBox="0 0 24 24" fill=none stroke=currentColor stroke-width=2>
+<path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+</svg>
+SourceHut
+</a>
+<a href=https://www.linkedin.com/in/rajveer-singh-saggu-7579071b7/ class=link>
+<svg class=icon viewBox="0 0 24 24" fill=none stroke=currentColor stroke-width=2>
+<path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+<circle cx=4 cy=4 r=2></circle>
+</svg>
+LinkedIn
+</a>
+<a href=https://youtube.com/@rajveer_2009 class=link>
+<svg class=icon viewBox="0 0 24 24" fill=none stroke=currentColor stroke-width=2>
+<path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 
+11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 
+00.46-5.25 29 29 0 00-.46-5.33z"></path>
+<polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+</svg>
+YouTube
+</a>
+<a href=https://codeforces.com/profile/rajveer2009 class=link>
+<svg class=icon viewBox="0 0 24 24" fill=none stroke=currentColor stroke-width=2>
+<path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+<path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 
+12.078 12.078 0 01.665-6.479L12 14z"></path>
+</svg>
+Codeforces
+</a>
+</div>
+</div>
+</body>
 </html>
